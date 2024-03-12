@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahavidya tution classes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styleh.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+    <nav style="border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" class="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar-expand navbar-toggler navbar-collapse" data-bs-theme="dark">
+        <div class="container-fluid " >
+          <a class="navbar-brand" href="Home.html">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse tabs" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+             <div> 
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+              </li>
+              </div>
+              <div>
+              <li class="nav-item">
+                <a class="nav-link active" href="facilities.html">FACILITIES</a>
+              </li>
+              </div>
+              <div>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">CONTACT</a>
+              </li>
+              </div>
+              <div>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACADEMICS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="assignment.html">ASSIGNMENT</a></li>
+                  <li><a class="dropdown-item" href="test.html">TEST</a></li>
+                  <li><a class="dropdown-item" href="fee.html">FEE STRUCTURE</a></li>
+                </ul>
+              </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav  class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.jpg" alt="Logo" style="width:75px;" class="rounded-pill" >
+          </a>
+          <h1 style="color: white;">MAHAVIDYA TUITION CLASSES</h1>
+        </div>
+      </nav>
+      <div  id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="students1.jpg" class="d-block w-100" alt="..." height="400px" >
+          </div>
+          <div class="carousel-item">
+            <img src="students2.jpg" class="d-block w-100" alt="..." height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="students3.jpg" class="d-block w-100" alt="..." height="400px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <div class="image"> 
+          <div class="image1">
+              <a href="contact.html"><img style="height: 250px; width: 250px; border-radius: 10px;" src="Contact-Us-Page-Image.png" alt="Contact us"></a>
+           </div>
+           <div class="image2">
+            <a href="about.html"><img style="height: 250px; width: 250px; border-radius: 10px;" src="abouti.jpg" alt="About us"></a>
+           </div>
+           <div class="image3">
+            <a href="fee.html"><img style="height: 250px; width: 250px; border-radius: 10px;" src="feestr.jpg" alt="Fee Structure"></a>
+           </div>
+      </div>>
+      <form class="row g-3 needs-validation" novalidate id="forms" style="margin-bottom: 10px;">
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">E-mail</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a Email.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid City.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Class</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Nursery</option>
+            <option>L.K.G</option>
+            <option>U.K.G</option>
+            <option>1st class</option>
+            <option>2nd class</option>
+            <option>3rd class</option>
+            <option>4th class</option>
+            <option>5th class</option>
+            <option>6th class</option>
+            <option>7th class</option>
+            <option>8th class</option>
+            <option>9th class</option>
+            <option>10th class</option>
+            <option>11th class</option>
+            <option>12th class</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid class.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Contact no.</label>
+          <input type="tel" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid Mobile no..
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+            I Agree
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+      <div style="display: flex; flex-direction: column;">
+        <div style="background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+        background-blend-mode: multiply,multiply;" >
+            <h1 style="color: white;">LIST OF STUDENTS</h1>
+        </div>
+        <div>
+        <table class="table table-dark table-hover" id="lists" style="margin-bottom: 0;">
+          <thead>
+            <tr>
+              <th>Sno.</th>
+              <th>Student Name</th>
+              <th>Class</th>
+              <th>Batch</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>1</td>
+            <td>Karan Rathi</td>
+            <td>1st</td>
+            <td>Second</td>
+             </tr>
+             <tr>
+              <td>2</td>
+              <td>Arjun Rathi</td>
+              <td>1st</td>
+              <td>Second</td>
+             </tr>
+             <tr>
+              <td>3</td>
+              <td>Ojasv Chaudhary</td>
+              <td>1st</td>
+              <td>First</td>
+             </tr>
+             <tr>
+              <td>4</td>
+              <td>Akshat Sharma</td>
+              <td>3rd</td>
+              <td>First</td>
+             </tr>
+             <tr>
+              <td>5</td>
+              <td>Kartik Goswami</td>
+              <td>3rd</td>
+              <td>First</td>
+             </tr>
+             <tr>
+              <td>6</td>
+              <td>Pihu Sharma</td>
+              <td>5th</td>
+              <td>First</td>
+             </tr>
+             <tr>
+              <td>7</td>
+              <td>Aradhya Sharma</td>
+              <td>5th</td>
+              <td>Second</td>
+             </tr>
+             <tr>
+              <td>8</td>
+              <td>Naksh Sharma</td>
+              <td>6th</td>
+              <td>First</td>
+             </tr>
+             <tr>
+              <td>9</td>
+              <td>Tanu Sharma</td>
+              <td>7th</td>
+              <td>Second</td>
+             </tr>
+             <tr>
+              <td>10</td>
+              <td>Palak</td>
+              <td>7th</td>
+              <td>Second</td>
+             </tr>
+             <tr>
+              <td>11</td>
+              <td>Mannu Sindhu</td>
+              <td>7th</td>
+              <td>First</td>
+             </tr>
+             <tr>
+              <td>12</td>
+              <td>Aparna Sharma</td>
+              <td>9th</td>
+              <td>Second</td>
+             </tr>
+             <tr>
+              <td>13</td>
+              <td>Akshita Baliyan</td>
+              <td>9th</td>
+              <td>Second</td>
+             </tr>
+             <tr>
+              <td>14</td>
+              <td>Arpit Sharma</td>
+              <td>9th</td>
+              <td>Second</td>
+             </tr>
+          </tbody>
+        </table>
+        <nav class="nav flex-column foot">
+          <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+          <a class="nav-link" href="contact.html">Contact us</a>
+          <a class="nav-link" href="about.html">About us</a>
+          <a class="nav-link" href="fee.html">Fee structure</a>
+          <a class="nav-link" href="facilities.html">Facilities</a>
+          <a class="nav-link" href="test.html">Test</a>
+          <a class="nav-link" href="assignment.html">Assignment</a>
+          <a class="nav-link" href="#forms">Form</a>
+          <a class="nav-link" href="#lists">List of all students</a>
+        </nav>   
+    </div>  
+</body>
+</html>
